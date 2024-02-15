@@ -1,7 +1,7 @@
 FROM node:18.19-slim
 
 USER root
-RUN npm install -g pnpm@7
+RUN npm install -g pnpm@8
 
 # Create app directory
 USER node
