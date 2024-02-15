@@ -8,7 +8,7 @@ USER node
 WORKDIR /usr/src/app
 
 COPY --chown=node:node . .
-RUN pnpm install
+RUN pnpm config set store-dir .pnpm-store && pnpm install
 
 USER node
 
