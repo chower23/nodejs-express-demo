@@ -8,7 +8,7 @@
   "keywords": [],
   "author": "",
   "dependencies": {
-    "express": "^4.4.5",
-    "lodash": "^4.17.19"
+    "express": "4.4.5",
+    "lodash": "4.17.16"
   }
 }
