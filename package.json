@@ -1,0 +1,14 @@
+{
+  "name": "nodejs-express-demo",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "dependencies": {
+    "express": "^4.4.5",
+    "lodash": "^4.17.19"
+  }
+}
